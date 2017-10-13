@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+.navbar-default {
+  background-color: #3e3b3b; }
+  .navbar-default li:hover {
+    background-color: rgba(62, 59, 59, 0.8);
+    transition: all .2s ease-in-out; }
+  .navbar-default .navbar-nav li a {
+    color: #cec7c7; }
+
+.info {
+  padding-top: 50px; }
+  .info .slick-slide:focus,
+  .info .slick-slide a {
+    outline: none; }
+
+main .slider {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: #000; }
+  main .slider-1 {
+    background: url(../images/france.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 330px; }
+    main .slider-1 .wrapper {
+      padding-top: 90px; }
+  main .slider-2 {
+    background: url(../images/uk.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 330px; }
+    main .slider-2 .wrapper {
+      padding-top: 90px; }
+  main .slider-3 {
+    background: url(../images/dubai.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 330px; }
+    main .slider-3 .wrapper {
+      padding-top: 90px; }
+main .faculties {
+  margin: 50px 0 50px 0; }
+  main .faculties h1 {
+    text-align: center; }
+  main .faculties .faculty {
+    position: relative;
+    text-align: center; }
+    main .faculties .faculty .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #a4dcff; }
+      main .faculties .faculty .overlay button {
+        background: none;
+        border: none;
+        color: #71878a;
+        margin-top: 45px;
+        padding: 5px;
+        border: 2px solid #71878a; }
+    main .faculties .faculty:hover .overlay {
+      opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */

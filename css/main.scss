@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.navbar-default {
+    background-color: rgba(62, 59, 59, 1);
+    li {
+
+        &:hover {
+            background-color: rgba(62, 59, 59, .8);
+            transition: all .2s ease-in-out;
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                color: #cec7c7;
+            }
+        }
+    }
+}
+
+.info {
+    padding-top: 50px;
+    .slick-slide {
+        &:focus,
+        a {
+            outline: none;
+        }
+    }
+}
+
+main {
+    .slider {
+        font-family: 'Indie Flower', cursive;
+        font-size: 20px;
+        color: #000;
+        &-1 {
+            background: url(../images/france.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 330px;
+            .wrapper {
+                padding-top: 90px;
+            }
+        }
+        &-2 {
+            background: url(../images/uk.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 330px;
+            .wrapper {
+                padding-top: 90px;
+            }
+        }
+        &-3 {
+            background: url(../images/dubai.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 330px;
+            .wrapper {
+                padding-top: 90px;
+            }
+        }
+    }
+    .faculties {
+        margin: 50px 0 50px 0;
+        h1 {
+            text-align: center;
+        }
+        .faculty {
+            position: relative;
+            text-align: center;
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #a4dcff;
+                button {
+                    background: none;
+                    border: none;
+                    color: #71878a;
+                    margin-top: 45px;
+                    padding: 5px;
+                    border: 2px solid #71878a;
+                }
+            }
+            &:hover .overlay {
+                opacity: 1;
+            }
+        }
+    }
+}
